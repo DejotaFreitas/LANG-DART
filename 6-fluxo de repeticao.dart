@@ -5,7 +5,7 @@ void main() {
 
   // executadar funcaoa  acada item da lista
   lista.forEach(print);
-  // candidato.where((c) => c.anosEsperiencia >= 5).forEach((c) => c.verCurriculo());
+  // candidatos.where((c) => c.anosEsperiencia >= 5).forEach((c) => c.entrevistar());
 
   for (var i = 0; i < lista.length; i++) {
     print(lista[i]);

@@ -7,6 +7,8 @@ class Classe {
 
 void main() {
   var c = Classe();
-
+  print(c.varPrivada);
+  c.varPrivada = 10;
+  print(c.varPrivada);
   print("OK");
 }

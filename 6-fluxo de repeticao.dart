@@ -11,9 +11,8 @@ void main() {
     print(lista[i]);
   }
 
-  for (var item in lista) {
-    print(item);
-  }
+  for (var item in lista) print(item);
+  for (var item in lista) { print(item); }
 
   while(true){
     print("while");

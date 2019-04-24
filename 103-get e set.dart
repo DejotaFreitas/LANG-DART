@@ -10,5 +10,6 @@ void main() {
   print(c.varPrivada);
   c.varPrivada = 10;
   print(c.varPrivada);
+  print(c._varPrivada);
   print("OK");
 }

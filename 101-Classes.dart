@@ -1,12 +1,14 @@
 
 
 class Classe {
+  
   num x, y;
   String nome = 'Classe';
   Classe({this.x=1, this.y=2, this.nome='Classe2'});
-  void info (){
-    print(this.x.toString() +" "+ this.y.toString() +" "+ this.nome);
-  }
+
+  @override
+  String toString() => (this.x.toString() +" "+ this.y.toString() +" "+ this.nome);
+
 }
 
 
@@ -14,7 +16,7 @@ class Classe {
 
 void main() {
   var c = Classe(y:10);
-  c.info();
+  print(c);
 
 
   print("OK");

@@ -1,9 +1,9 @@
 
 abstract class ClasseAbstrata { void info(){ print("ClasseAbstrata"); } }
-abstract class ClasseInterface {  void info1(); }
+abstract class ClasseInterface { void info1(); /* metodo sem corpo obriga os filhos a implemeta-los*/ }
 abstract class ClasseInterface2 {  void info2(); }
 
-class ClassePai extends ClasseAbstrata implements ClasseInterface, ClasseInterface2 {
+class ClassePai extends ClasseAbstrata implements ClasseInterface {
   ClassePai(String nome){ print("ClassePai "+nome);  }
   void info1(){ print("ClasseInterface"); }
   void info2(){ print("ClasseInterface2"); }
